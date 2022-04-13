@@ -1,11 +1,33 @@
 .picture-Carousel{
     width: auto;
-}
-img{
-    height: 350px;
-    width: 100%;
-}
-.paper{
-    position: relative;
-    bottom: 30px;
+    height: 420px;
+    .picture-box{
+        width: 100%;
+        .skip-page{
+            text-decoration: none;
+        }
+    }
+    img{
+        height: 350px;
+        width: 100%;
+    }
+    .picture-grid{
+        &:hover{
+            .paper{
+                display: block;
+            }
+        }
+    }
+    .paper{
+        position: relative;
+        bottom: 60px;
+        background-color: rgba($color: chocolate, $alpha: 0.2);
+        width: 80%;
+        margin-left: 1%;
+        display: none;
+        color: #fff;
+        .introduce{
+            margin-left: 10px;
+        }
+    }
 }

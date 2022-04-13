@@ -3,13 +3,13 @@
     margin: 0;
 }
 .header{
-    max-height: 100px;
+    height: 150px;
     background-color:antiquewhite;
     .companyName{
         font-family:'Courier New', Courier, monospace;
         text-align: center;
         color: white !important;
-        line-height: 100px;
+        line-height: 150px;
         max-width: 100%;
     }
 }

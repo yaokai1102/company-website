@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import './styles.scss'
 import Container from '@material-ui/core/Container';
 
-export default class index extends Component {
-  render() {
+export default function ImgCarousel() {
     return (
       <Container className='header' maxWidth='100%'>
         <h1 className='companyName'>
@@ -13,4 +12,3 @@ export default class index extends Component {
       </Container>
     )
   }
-}
