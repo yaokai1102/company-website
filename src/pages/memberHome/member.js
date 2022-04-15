@@ -1,9 +1,9 @@
 import './App.scss';
-import Header from '../../components/header'
+import Header from '../../components/memberComponents/header'
 import Middle from '../../components/middle';
 import Carousel from '../../components/img-carousel';
 
-function App() {
+function Member() {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Member;

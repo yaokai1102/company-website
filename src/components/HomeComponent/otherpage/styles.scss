@@ -1,0 +1,13 @@
+.other-box{
+    width: 60%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    .other-root{
+        width: 100%;
+        display: flex;
+        .other-img{
+            width: 100%;
+        }
+    }
+}
